@@ -37,6 +37,13 @@ body
   color: white;
 }
 
+#main > #intro
+{
+  box-shadow: 0px 0px 15px 10px red;
+  padding: 15px;
+  margin-top: 50px;
+}
+
 /* Nav-List */
 
 ul
@@ -51,7 +58,7 @@ ul
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 1;
+  opacity: 0;
 
   height: 60px;
 
